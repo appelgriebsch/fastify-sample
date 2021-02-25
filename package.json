@@ -1,0 +1,21 @@
+{
+  "name": "fastify-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "author": "Andreas Gerlach",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "fastify-cors": "^5.2.0",
+    "fastify-websocket": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "wscat": "^4.0.1"
+  }
+}
